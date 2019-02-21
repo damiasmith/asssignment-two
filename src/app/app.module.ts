@@ -6,13 +6,12 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { UserNameComponent } from './user-name/user-name.component';
-import { UserComponent } from './user/user.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserNameComponent,
-    UserComponent
+    UserNameComponent
   ],
   imports: [
     BrowserModule,
